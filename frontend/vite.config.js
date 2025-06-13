@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       // '/api': 'http://localhost:4000',
-      '/api': 'node-02-fullstack-basic.onrender.com',
+      '/api': 'https://node-02-fullstack-basic.onrender.com',
     }
   },
   plugins: [react()],
